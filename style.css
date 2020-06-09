@@ -153,9 +153,9 @@ section {
 
 .article a{
 	font-family: Montserrat, sans-serif;
-	font-size:1.2rem;
+	font-size:1.6rem;
 	line-height: 2rem;
-	color: #2D2D2D;
+	color: #999999;
 	text-decoration: none;
 	transition: color 0.3s linear;
 }

@@ -1,4 +1,4 @@
-fetch('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40lucian_alexe')
+fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@lucian_alexe%2F')
    .then((res) => res.json())
    .then((data) => {
       // Filter for acctual posts. Comments don't have categories, therefore can filter for items with categories bigger than 0
