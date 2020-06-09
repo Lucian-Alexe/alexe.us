@@ -56,9 +56,10 @@ table {
 
 body {
 	background: #000;
+	
 }
 
-h1, p {
+h1, h2, p {
 	font-family: Montserrat, sans-serif;
 }
 
@@ -69,9 +70,17 @@ h1 {
 	margin:2rem 0;
 }
 
+
+h2 {
+	font-size:2.2rem;
+	color:#fff;
+	font-weight: 900;
+	margin:2rem 0;
+}
+
 p {
 	font-size:1.6rem;
-	line-height: 2.2rem;
+	line-height: 2.5rem;
 	color:#999999;
 	margin:2.5rem 0;
 }
@@ -92,7 +101,7 @@ p {
 
 
 .wrapper {
-    max-width: 1000px;
+    max-width: 960px;
     margin:0 auto;
 }
 
@@ -102,8 +111,79 @@ section {
 
 .buttons  {
 	color:#fff;
-	font-size:4rem;
+	font-size:3.5rem;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+}
+
+.buttons a {
+	color: #fff;
+	transition: color 0.3s linear;
+}
+
+.dribbble:hover {
+	color: #e94c89;
+	transition: color 0.3s linear;
+}
+
+.behance:hover {
+	color: #3f7cbf;
+	transition: color 0.3s linear;
+}
+
+.unsplash:hover {
+	color: #b3b3b3;
+	transition: color 0.3s linear;
+}
+
+.instagram:hover {
+	color: #febb50;
+	transition: color 0.3s linear;
+}
+.medium:hover {
+	color: #1ca54b;
+	transition: color 0.3s linear;
+}
+
+.youtube:hover {
+	color: #ff0000;
+	transition: color 0.3s linear;
+}
+
+.article a{
+	font-family: Montserrat, sans-serif;
+	font-size:1.2rem;
+	line-height: 2rem;
+	color: #2D2D2D;
+	text-decoration: none;
+	transition: color 0.3s linear;
+}
+
+.article a:hover{
+	color: #fff;
+	transition: color 0.3s linear;
+}
+
+.article {
+	padding:1rem 0;
+	border-bottom: 1px solid #2D2D2D;
+}
+
+
+.medium-section {
+	margin-top:4rem;
+}
+
+
+.footer p{
+	font-size:0.8rem;
+	font-weight: 900;
+	color: #2D2D2D;
+}
+
+@media screen and (max-width: 600px) {
+	html {
+		font-size:12px;
+	}
 }
